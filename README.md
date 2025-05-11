@@ -28,11 +28,11 @@ Before running the automated script, ensure you have the following:
 ## Folder Structure
 
 A typical project structure might look like this:
-VK's Reconnaissance automating tool/
-├── README.md
-├── scan.sh
-├── results/
-└── LICENSE
+VK's Reconnaissance automating tool/\n
+├── README.md\n
+├── scan.sh\n
+├── results/\n
+└── LICENSE\n
 
 - **README.md:** This file, containing project information and instructions.
 - **scan.sh:** The Bash script that automates the scanning process.
