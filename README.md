@@ -83,12 +83,12 @@ VK's Reconnaissance automating tool/
     ```
     
 4. **Troubleshooting**
-   
-    - Permissions Error: If you receive a "Permission denied" error, re-run chmod +x scan.sh to ensure the script is executable.
+ 
+  - Permissions Error: If you receive a "Permission denied" error, re-run chmod +x scan.sh to ensure the script is executable.
 
-    - Nmap Not Found: Make sure Nmap is properly installed and accessible. If the command is not found, verify your installation and PATH environment variable.
+  - Nmap Not Found: Make sure Nmap is properly installed and accessible. If the command is not found, verify your installation and PATH environment variable.
 
-    - Invalid Target: Ensure you are entering a valid IP address or domain name when prompted.
+  - Invalid Target: Ensure you are entering a valid IP address or domain name when prompted.
 
 6. **License**
     This project is licensed under the MIT License (or specify any other license you are using).
