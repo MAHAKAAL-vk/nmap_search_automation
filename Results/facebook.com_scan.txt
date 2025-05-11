@@ -1,0 +1,297 @@
+Running Ping Scan...\n
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 12:44 IST
+Nmap scan report for facebook.com (157.240.192.35)
+Host is up (0.0039s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f137:182:face:b00c:0:25de
+rDNS record for 157.240.192.35: edge-star-mini-shv-02-maa2.facebook.com
+Nmap done: 1 IP address (1 host up) scanned in 0.07 seconds
+
+
+Running Port Scan...
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 12:44 IST
+Nmap scan report for facebook.com (157.240.192.35)
+Host is up (0.013s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f137:182:face:b00c:0:25de
+rDNS record for 157.240.192.35: edge-star-mini-shv-02-maa2.facebook.com
+Not shown: 65533 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      proxygen-bolt
+443/tcp open  ssl/https
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=5/11%Time=68204F0A%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20htt
+SF:ps:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDa
+SF:te:\x20Sun,\x2011\x20May\x202025\x2007:17:30\x20GMT\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x203
+SF:01\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type:\x
+SF:20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Sun,\x2011\x20May\
+SF:x202025\x2007:17:30\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x
+SF:200\r\n\r\n")%r(RTSPRequest,C62,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_h
+SF:eaders_parsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x2011
+SF:\x20May\x202025\x2007:17:30\x20GMT\r\nConnection:\x20close\r\nContent-L
+SF:ength:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"
+SF:facebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20E
+SF:rror</title>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20
+SF:\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x2
+SF:0\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-stor
+SF:e\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=
+SF:\"max-age=0\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20cont
+SF:ent=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=
+SF:\"no-cache\">\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"no
+SF:index,nofollow\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20htm
+SF:l,\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#141823;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#e9eaed;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x
+SF:20Arial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20padd
+SF:ing:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align")%r(X11Probe,C62
+SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html;\x20
+SF:charset=utf-8\r\nProxy-Status:\x20http_headers_parsing_error;\x20detail
+SF:s=\"ParseHeader\"\r\nDate:\x20Sun,\x2011\x20May\x202025\x2007:17:30\x20
+SF:GMT\r\nConnection:\x20close\r\nContent-Length:\x202959\r\n\r\n<!DOCTYPE
+SF:\x20html>\n<html\x20lang=\"en\"\x20id=\"facebook\">\n\x20\x20<head>\n\x
+SF:20\x20\x20\x20<title>Facebook\x20\|\x20Error</title>\n\x20\x20\x20\x20<
+SF:meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache
+SF:-control\"\x20content=\"no-cache\">\n\x20\x20\x20\x20<meta\x20http-equi
+SF:v=\"cache-control\"\x20content=\"no-store\">\n\x20\x20\x20\x20<meta\x20
+SF:http-equiv=\"cache-control\"\x20content=\"max-age=0\">\n\x20\x20\x20\x2
+SF:0<meta\x20http-equiv=\"expires\"\x20content=\"-1\">\n\x20\x20\x20\x20<m
+SF:eta\x20http-equiv=\"pragma\"\x20content=\"no-cache\">\n\x20\x20\x20\x20
+SF:<meta\x20name=\"robots\"\x20content=\"noindex,nofollow\">\n\x20\x20\x20
+SF:\x20<style>\n\x20\x20\x20\x20\x20\x20html,\x20body\x20{\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20color:\x20#141823;\n\x20\x20\x20\x20\x20\x20\x20\x20b
+SF:ackground-color:\x20#e9eaed;\n\x20\x20\x20\x20\x20\x20\x20\x20font-fami
+SF:ly:\x20Helvetica,\x20Lucida\x20Grande,\x20Arial,\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Tahoma,\
+SF:x20Verdana,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20margin:\x20
+SF:0;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20text-align");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=5/11%Time=68204F10%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1D10,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nVary:\x20Acce
+SF:pt-Encoding\r\nPragma:\x20no-cache\r\nCache-Control:\x20private,\x20no-
+SF:cache,\x20no-store,\x20must-revalidate\r\nExpires:\x20Sat,\x2001\x20Jan
+SF:\x202000\x2000:00:00\x20GMT\r\ncontent-security-policy-report-only:\x20
+SF:default-src\x20'self'\x20blob:\x20\*;script-src\x20'nonce-cEYmqKjY'\x20
+SF:'report-sample'\x20\*\.facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\
+SF:.net\x20127\.0\.0\.1:\*\x20blob:\x20'self'\x20data:\x20https://\*\.goog
+SF:le-analytics\.com\x20\*\.google\.com;style-src\x20'self'\x20data:\x20bl
+SF:ob:\x20'unsafe-inline';connect-src\x20'self'\x20data:\x20blob:\x20\*\.f
+SF:acebook\.com\x20facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x2
+SF:0wss://\*\.facebook\.com:\*\x20wss://\*\.whatsapp\.com:\*\x20wss://\*\.
+SF:fbcdn\.net\x20attachment\.fbsbx\.com\x20ws://localhost:\*\x20\*\.cdnins
+SF:tagram\.com\x20https://\*\.google-analytics\.com;font-src\x20'self'\x20
+SF:data:\x20blob:\x20\*;img-src\x20'self'\x20data:\x20blob:\x20\*\x20https
+SF:://\*\.google-analytics\.com;media-src\x20'self'\x20data:\x20blob:\x20\
+SF:*;child-src\x20'self'\x20data:\x20blob:\x20\*;frame-src\x20'self'\x20da
+SF:ta:\x20blob:\x20\*;manifest-src\x20'self'\x20data:\x20blob:\x20\*;objec
+SF:t-")%r(HTTPOptions,1C6F,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Erro
+SF:r\r\nVary:\x20Accept-Encoding\r\nerror-mid:\x20c7c8b69fe9b6faa81409f203
+SF:767d7880\r\nPragma:\x20no-cache\r\nCache-Control:\x20private,\x20no-cac
+SF:he,\x20no-store,\x20must-revalidate\r\nExpires:\x20Sat,\x2001\x20Jan\x2
+SF:02000\x2000:00:00\x20GMT\r\ncontent-security-policy-report-only:\x20def
+SF:ault-src\x20'self'\x20blob:\x20\*;script-src\x20'nonce-72AuzRUR'\x20're
+SF:port-sample'\x20\*\.facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.ne
+SF:t\x20127\.0\.0\.1:\*\x20blob:\x20'self'\x20data:\x20https://\*\.google-
+SF:analytics\.com\x20\*\.google\.com;style-src\x20'self'\x20data:\x20blob:
+SF:\x20'unsafe-inline';connect-src\x20'self'\x20data:\x20blob:\x20\*\.face
+SF:book\.com\x20facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20ws
+SF:s://\*\.facebook\.com:\*\x20wss://\*\.whatsapp\.com:\*\x20wss://\*\.fbc
+SF:dn\.net\x20attachment\.fbsbx\.com\x20ws://localhost:\*\x20\*\.cdninstag
+SF:ram\.com\x20https://\*\.google-analytics\.com;font-src\x20'self'\x20dat
+SF:a:\x20blob:\x20\*;img-src\x20'self'\x20data:\x20blob:\x20\*\x20https://
+SF:\*\.google-analytics\.com;media-src\x20'self'\x20data:\x20blob:\x20\*;c
+SF:hild-src\x20'self'\x20data:\x20blob:\x20\*;frame-src\x20'self'\x20");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 200.10 seconds
+
+
+Running OS Detection and Service Version Scan...
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 12:47 IST
+Nmap scan report for facebook.com (157.240.192.35)
+Host is up (0.0045s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f137:182:face:b00c:0:25de
+rDNS record for 157.240.192.35: edge-star-mini-shv-02-maa2.facebook.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      proxygen-bolt
+|_http-server-header: proxygen-bolt
+|_http-title: Did not follow redirect to https://facebook.com/
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 301 Moved Permanently
+|     Location: https:///
+|     Content-Type: text/plain
+|     Server: proxygen-bolt
+|     Date: Sun, 11 May 2025 07:17:54 GMT
+|     Connection: close
+|     Content-Length: 0
+|   RTSPRequest, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Proxy-Status: http_headers_parsing_error; details="ParseHeader"
+|     Date: Sun, 11 May 2025 07:17:54 GMT
+|     Connection: close
+|     Content-Length: 2959
+|     <!DOCTYPE html>
+|     <html lang="en" id="facebook">
+|     <head>
+|     <title>Facebook | Error</title>
+|     <meta charset="utf-8">
+|     <meta http-equiv="cache-control" content="no-cache">
+|     <meta http-equiv="cache-control" content="no-store">
+|     <meta http-equiv="cache-control" content="max-age=0">
+|     <meta http-equiv="expires" content="-1">
+|     <meta http-equiv="pragma" content="no-cache">
+|     <meta name="robots" content="noindex,nofollow">
+|     <style>
+|     html, body {
+|     color: #141823;
+|     background-color: #e9eaed;
+|     font-family: Helvetica, Lucida Grande, Arial,
+|     Tahoma, Verdana, sans-serif;
+|     margin: 0;
+|     padding: 0;
+|_    text-align
+443/tcp open  ssl/https
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| ssl-cert: Subject: commonName=*.facebook.com/organizationName=Meta Platforms, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:*.facebook.com, DNS:*.facebook.net, DNS:*.fbcdn.net, DNS:*.fbsbx.com, DNS:*.m.facebook.com, DNS:*.messenger.com, DNS:*.xx.fbcdn.net, DNS:*.xy.fbcdn.net, DNS:*.xz.fbcdn.net, DNS:facebook.com, DNS:messenger.com
+| Not valid before: 2025-02-17T00:00:00
+|_Not valid after:  2025-05-18T23:59:59
+|_http-title: Did not follow redirect to https://www.facebook.com/
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Vary: Accept-Encoding
+|     Pragma: no-cache
+|     Cache-Control: private, no-cache, no-store, must-revalidate
+|     Expires: Sat, 01 Jan 2000 00:00:00 GMT
+|     content-security-policy-report-only: default-src 'self' blob: *;script-src 'nonce-e8l0A5xh' 'report-sample' *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* blob: 'self' data: https://*.google-analytics.com *.google.com;style-src 'self' data: blob: 'unsafe-inline';connect-src 'self' data: blob: *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* *.cdninstagram.com https://*.google-analytics.com;font-src 'self' data: blob: *;img-src 'self' data: blob: * https://*.google-analytics.com;media-src 'self' data: blob: *;child-src 'self' data: blob: *;frame-src 'self' data: blob: *;manifest-src 'self' data: blob: *;object-
+|   HTTPOptions: 
+|     HTTP/1.1 500 Internal Server Error
+|     Vary: Accept-Encoding
+|     error-mid: c7c8b69fe9b6faa81409f203767d7880
+|     Pragma: no-cache
+|     Cache-Control: private, no-cache, no-store, must-revalidate
+|     Expires: Sat, 01 Jan 2000 00:00:00 GMT
+|_    content-security-policy-report-only: default-src 'self' blob: *;script-src 'nonce-RnOa4yKY' 'report-sample' *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* blob: 'self' data: https://*.google-analytics.com *.google.com;style-src 'self' data: blob: 'unsafe-inline';connect-src 'self' data: blob: *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* *.cdninstagram.com https://*.google-analytics.com;font-src 'self' data: blob: *;img-src 'self' data: blob: * https://*.google-analytics.com;media-src 'self' data: blob: *;child-src 'self' data: blob: *;frame-src 'self'
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=5/11%Time=68204F22%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20htt
+SF:ps:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDa
+SF:te:\x20Sun,\x2011\x20May\x202025\x2007:17:54\x20GMT\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x203
+SF:01\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type:\x
+SF:20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Sun,\x2011\x20May\
+SF:x202025\x2007:17:54\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x
+SF:200\r\n\r\n")%r(RTSPRequest,C62,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_h
+SF:eaders_parsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x2011
+SF:\x20May\x202025\x2007:17:54\x20GMT\r\nConnection:\x20close\r\nContent-L
+SF:ength:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"
+SF:facebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20E
+SF:rror</title>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20
+SF:\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x2
+SF:0\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-stor
+SF:e\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=
+SF:\"max-age=0\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20cont
+SF:ent=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=
+SF:\"no-cache\">\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"no
+SF:index,nofollow\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20htm
+SF:l,\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#141823;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#e9eaed;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x
+SF:20Arial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20padd
+SF:ing:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align")%r(X11Probe,C62
+SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html;\x20
+SF:charset=utf-8\r\nProxy-Status:\x20http_headers_parsing_error;\x20detail
+SF:s=\"ParseHeader\"\r\nDate:\x20Sun,\x2011\x20May\x202025\x2007:17:54\x20
+SF:GMT\r\nConnection:\x20close\r\nContent-Length:\x202959\r\n\r\n<!DOCTYPE
+SF:\x20html>\n<html\x20lang=\"en\"\x20id=\"facebook\">\n\x20\x20<head>\n\x
+SF:20\x20\x20\x20<title>Facebook\x20\|\x20Error</title>\n\x20\x20\x20\x20<
+SF:meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache
+SF:-control\"\x20content=\"no-cache\">\n\x20\x20\x20\x20<meta\x20http-equi
+SF:v=\"cache-control\"\x20content=\"no-store\">\n\x20\x20\x20\x20<meta\x20
+SF:http-equiv=\"cache-control\"\x20content=\"max-age=0\">\n\x20\x20\x20\x2
+SF:0<meta\x20http-equiv=\"expires\"\x20content=\"-1\">\n\x20\x20\x20\x20<m
+SF:eta\x20http-equiv=\"pragma\"\x20content=\"no-cache\">\n\x20\x20\x20\x20
+SF:<meta\x20name=\"robots\"\x20content=\"noindex,nofollow\">\n\x20\x20\x20
+SF:\x20<style>\n\x20\x20\x20\x20\x20\x20html,\x20body\x20{\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20color:\x20#141823;\n\x20\x20\x20\x20\x20\x20\x20\x20b
+SF:ackground-color:\x20#e9eaed;\n\x20\x20\x20\x20\x20\x20\x20\x20font-fami
+SF:ly:\x20Helvetica,\x20Lucida\x20Grande,\x20Arial,\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Tahoma,\
+SF:x20Verdana,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20margin:\x20
+SF:0;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20text-align");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=5/11%Time=68204F28%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1CF2,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nVary:\x20Acce
+SF:pt-Encoding\r\nPragma:\x20no-cache\r\nCache-Control:\x20private,\x20no-
+SF:cache,\x20no-store,\x20must-revalidate\r\nExpires:\x20Sat,\x2001\x20Jan
+SF:\x202000\x2000:00:00\x20GMT\r\ncontent-security-policy-report-only:\x20
+SF:default-src\x20'self'\x20blob:\x20\*;script-src\x20'nonce-e8l0A5xh'\x20
+SF:'report-sample'\x20\*\.facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\
+SF:.net\x20127\.0\.0\.1:\*\x20blob:\x20'self'\x20data:\x20https://\*\.goog
+SF:le-analytics\.com\x20\*\.google\.com;style-src\x20'self'\x20data:\x20bl
+SF:ob:\x20'unsafe-inline';connect-src\x20'self'\x20data:\x20blob:\x20\*\.f
+SF:acebook\.com\x20facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x2
+SF:0wss://\*\.facebook\.com:\*\x20wss://\*\.whatsapp\.com:\*\x20wss://\*\.
+SF:fbcdn\.net\x20attachment\.fbsbx\.com\x20ws://localhost:\*\x20\*\.cdnins
+SF:tagram\.com\x20https://\*\.google-analytics\.com;font-src\x20'self'\x20
+SF:data:\x20blob:\x20\*;img-src\x20'self'\x20data:\x20blob:\x20\*\x20https
+SF:://\*\.google-analytics\.com;media-src\x20'self'\x20data:\x20blob:\x20\
+SF:*;child-src\x20'self'\x20data:\x20blob:\x20\*;frame-src\x20'self'\x20da
+SF:ta:\x20blob:\x20\*;manifest-src\x20'self'\x20data:\x20blob:\x20\*;objec
+SF:t-")%r(HTTPOptions,1C6F,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Erro
+SF:r\r\nVary:\x20Accept-Encoding\r\nerror-mid:\x20c7c8b69fe9b6faa81409f203
+SF:767d7880\r\nPragma:\x20no-cache\r\nCache-Control:\x20private,\x20no-cac
+SF:he,\x20no-store,\x20must-revalidate\r\nExpires:\x20Sat,\x2001\x20Jan\x2
+SF:02000\x2000:00:00\x20GMT\r\ncontent-security-policy-report-only:\x20def
+SF:ault-src\x20'self'\x20blob:\x20\*;script-src\x20'nonce-RnOa4yKY'\x20're
+SF:port-sample'\x20\*\.facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.ne
+SF:t\x20127\.0\.0\.1:\*\x20blob:\x20'self'\x20data:\x20https://\*\.google-
+SF:analytics\.com\x20\*\.google\.com;style-src\x20'self'\x20data:\x20blob:
+SF:\x20'unsafe-inline';connect-src\x20'self'\x20data:\x20blob:\x20\*\.face
+SF:book\.com\x20facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20ws
+SF:s://\*\.facebook\.com:\*\x20wss://\*\.whatsapp\.com:\*\x20wss://\*\.fbc
+SF:dn\.net\x20attachment\.fbsbx\.com\x20ws://localhost:\*\x20\*\.cdninstag
+SF:ram\.com\x20https://\*\.google-analytics\.com;font-src\x20'self'\x20dat
+SF:a:\x20blob:\x20\*;img-src\x20'self'\x20data:\x20blob:\x20\*\x20https://
+SF:\*\.google-analytics\.com;media-src\x20'self'\x20data:\x20blob:\x20\*;c
+SF:hild-src\x20'self'\x20data:\x20blob:\x20\*;frame-src\x20'self'\x20");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|storage-misc
+Running (JUST GUESSING): FreeBSD 11.X|12.X|13.X (88%), NetApp Data ONTAP 9.X (87%)
+OS CPE: cpe:/o:freebsd:freebsd:11.0 cpe:/o:freebsd:freebsd:12 cpe:/o:netapp:data_ontap:9.7 cpe:/o:freebsd:freebsd:13.1
+Aggressive OS guesses: FreeBSD 11.0-RELEASE (88%), FreeBSD 11.2-STABLE (88%), FreeBSD 12.1-RELEASE - 12.2-RELEASE (88%), NetApp Data ONTAP 9.7 (87%), FreeBSD 13.1-RELEASE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   8.91 ms   192.168.0.1
+2   3.31 ms   10.224.0.1
+3   5.69 ms   10.200.150.67
+4   ...
+5   36.28 ms  ae21.pr01.maa2.tfbnw.net (157.240.81.68)
+6   7.89 ms   po4000.asw01.maa2.tfbnw.net (129.134.34.150)
+7   5.21 ms   psw03.maa2.tfbnw.net (157.240.55.142)
+8   133.16 ms msw1ag.02.maa2.tfbnw.net (129.134.86.118)
+9   3.11 ms   edge-star-mini-shv-02-maa2.facebook.com (157.240.192.35)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 41.62 seconds

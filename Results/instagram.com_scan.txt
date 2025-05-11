@@ -1,0 +1,286 @@
+Running Ping Scan...\n
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 12:54 IST
+Nmap scan report for instagram.com (157.240.192.174)
+Host is up (0.0050s latency).
+Other addresses for instagram.com (not scanned): 2a03:2880:f237:1e0:face:b00c:0:4420
+rDNS record for 157.240.192.174: instagram-p42-shv-02-maa2.fbcdn.net
+Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
+
+
+Running Port Scan...
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 12:54 IST
+Nmap scan report for instagram.com (157.240.192.174)
+Host is up (0.015s latency).
+Other addresses for instagram.com (not scanned): 2a03:2880:f237:1e0:face:b00c:0:4420
+rDNS record for 157.240.192.174: instagram-p42-shv-02-maa2.fbcdn.net
+Not shown: 65533 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      proxygen-bolt
+443/tcp open  ssl/https
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=5/11%Time=6820518E%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20htt
+SF:ps:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDa
+SF:te:\x20Sun,\x2011\x20May\x202025\x2007:28:14\x20GMT\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x203
+SF:01\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type:\x
+SF:20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Sun,\x2011\x20May\
+SF:x202025\x2007:28:14\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x
+SF:200\r\n\r\n")%r(RTSPRequest,13B,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_h
+SF:eaders_parsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x2011
+SF:\x20May\x202025\x2007:28:14\x20GMT\r\nConnection:\x20close\r\nContent-L
+SF:ength:\x20105\r\n\r\n<html>\n<head>\n<title>5xx\x20Server\x20Error</tit
+SF:le>\n</head>\n\n<body>\n<h1>5xx\x20Server\x20Error</h1>\n</body>\n\n</h
+SF:tml>\n")%r(X11Probe,13B,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-
+SF:Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_headers_p
+SF:arsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x2011\x20May\
+SF:x202025\x2007:28:14\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x
+SF:20105\r\n\r\n<html>\n<head>\n<title>5xx\x20Server\x20Error</title>\n</h
+SF:ead>\n\n<body>\n<h1>5xx\x20Server\x20Error</h1>\n</body>\n\n</html>\n")
+SF:%r(FourOhFourRequest,D6,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLo
+SF:cation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nContent-Typ
+SF:e:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Sun,\x2011\x20
+SF:May\x202025\x2007:28:14\x20GMT\r\nConnection:\x20close\r\nContent-Lengt
+SF:h:\x200\r\n\r\n")%r(RPCCheck,13B,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nContent-Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_
+SF:headers_parsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x201
+SF:1\x20May\x202025\x2007:28:19\x20GMT\r\nConnection:\x20close\r\nContent-
+SF:Length:\x20105\r\n\r\n<html>\n<head>\n<title>5xx\x20Server\x20Error</ti
+SF:tle>\n</head>\n\n<body>\n<h1>5xx\x20Server\x20Error</h1>\n</body>\n\n</
+SF:html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=5/11%Time=68205194%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,691,"HTTP/1\.1\x20404\x20default_vip_404\r\nContent-Type:
+SF:\x20text/html;\x20charset=utf-8\r\nAccess-Control-Allow-Origin:\x20\*\r
+SF:\nProxy-Status:\x20proxy_internal_response;\x20e_isproxyerr=\"AcMaIyZbQ
+SF:FpD1CvMCZN16KLCKgmh4ydvFci6vvL1sR6N9lIcQ7-VA4CcLCAhZw\";\x20e_proxy=\"A
+SF:cP1t6y6MyqVbe7k5IXGN34sRJw2yqjKqgSTdguE-LFiILJOGVutrKinyvns4BKQXoDHmJLY
+SF:aU-zzp4\";\x20e_fb_twtaskhandle=\"AcOTlq0rFfYLrLfGaG-qlZ722SRkSr_OXi6kS
+SF:wMc0gMjbPlp6JKDbGIL2T8zMZN8W5XgjpupXjDm-RAvO2r03i5YL7oQDSeGH-o\";\x20e_
+SF:fb_proxycode=\"AcOkh_S5xZPDO9NGkQm3zvGU4iT9TTCdWaBb76FLO0TVCaAW_00OfNoJ
+SF:_p1C\";\x20e_fb_requestsequencenumber=\"AcNrNTl1v71SJnbCMJtsBXUUoPmU8hz
+SF:CwBtRkannIgSIQDy5BC951wnM4w\";\x20e_fb_zone=\"AcPo443yQLEN08a837eANq_AV
+SF:AXa2c-1pPWcYJ_91CInNUz0HG0J88oujJt-zA\";\x20e_fb_binaryversion=\"AcMH0S
+SF:cR7BQxdaNTvWXfGiBzHsfArIcJQ0Ki9Gbqst5xSpb8ZTnt56MHCnUQ8mhgZyjnNAunS13y7
+SF:-FDMncDlsmEIz8-n4n3PhQ\";\x20e_fb_httpversion=\"AcM7As83hHJ2savwuJDHA6G
+SF:56HpnXryZsHnl4-fs45_VfT6qSq992uZkVVRV\";\x20e_fb_responsebytes=\"A")%r(
+SF:HTTPOptions,692,"HTTP/1\.1\x20404\x20default_vip_404\r\nContent-Type:\x
+SF:20text/html;\x20charset=utf-8\r\nAccess-Control-Allow-Origin:\x20\*\r\n
+SF:Proxy-Status:\x20proxy_internal_response;\x20e_isproxyerr=\"AcNoBwQCkOR
+SF:N1HBxE_WZ_pU62xn-xA3AQvHSsfRs3m6i4W1HiBuaQBmUw7fVYw\";\x20e_proxy=\"AcP
+SF:ADjj5YHLuEfAQbwtin6d5lfUPHLVmAScq8zN_jzGJJCx2cop-24UglDb_IGsmfUlhehxrYR
+SF:bw3uY\";\x20e_fb_twtaskhandle=\"AcO98wMFaiZKaaTxbUI8Mxbhf7Kcpmxkj1kOwcx
+SF:l-b9PdKEjFbMMJ-uJTxUzWcDz-zWbgQQophOb0Le_Pkkmhkv3zqbE_GKy5TnY\";\x20e_f
+SF:b_proxycode=\"AcOi0A3ewhA64PjQbduBl4S-qHkCPvQZyqkpg2RW8NmZq2ofeeaSo2Axc
+SF:js_\";\x20e_fb_requestsequencenumber=\"AcNqyduCyCrMoaQd7oLsH7PXqBx1hdAi
+SF:aM8ePFXFOIk0RdMwvJGy1MKh8A\";\x20e_fb_zone=\"AcNJ-8evGDhhMYUvnNnMPqtU1J
+SF:P5xXF2LVojc-r9KJj0bNzR6BYKwvJMckb5SQ\";\x20e_fb_binaryversion=\"AcPHc4d
+SF:8V8u8DFvPQa36-zOgeExQdvsH1dbr8B7_S5gUzzMpGYgCixrmJ1r3fyWD-SQl1D1oUybkfY
+SF:XizpZiXbz5CsyrEdjlnw4\";\x20e_fb_httpversion=\"AcNdYDnPyvrohqss0lBp9BjN
+SF:kE0RPiDTrE0vqcwf77VgKYN-FHHpt2S-QiKU\";\x20e_fb_responsebytes=\"")%r(Fo
+SF:urOhFourRequest,691,"HTTP/1\.1\x20404\x20default_vip_404\r\nContent-Typ
+SF:e:\x20text/html;\x20charset=utf-8\r\nAccess-Control-Allow-Origin:\x20\*
+SF:\r\nProxy-Status:\x20proxy_internal_response;\x20e_isproxyerr=\"AcNa_ex
+SF:oINh3X-c1GNbe2xYJPnW3487vlhNmI4FQif3ex75MjPotGZLl_9FM0Q\";\x20e_proxy=\
+SF:"AcOR52sohQE91V4GTuteaKvr6tJxmZ4mHvdRfnrqADfSm35H95jIDV3TBmNTqyFRKAfU2G
+SF:yjlop5DRc\";\x20e_fb_twtaskhandle=\"AcOAHtjdZtxGpE1_Io7JPomMUobvgPUzRJ7
+SF:k7cKLVkxVE0hkQ_y5XL0LcXV32f2mXCscBcy6mmQ-nFjJBwWYpf-gooNzICMR1_w\";\x20
+SF:e_fb_proxycode=\"AcNE8M15qGbvIsr1H9g4YxCUkpNn26tN07uSoMjXzsT9Fej2LR-LVd
+SF:MhtoYm\";\x20e_fb_requestsequencenumber=\"AcNP4xIbXoNq0Nb62u6Pu8L09sa2Q
+SF:Tyc1khwUYhfuuDf2JfEheY35FyluA\";\x20e_fb_zone=\"AcOyS5JFjKUA8Wx12jeHCS5
+SF:RiJp-owVsX2fTUg567UoElUeTAh5mlqMb7BOGVQ\";\x20e_fb_binaryversion=\"AcO8
+SF:ZVzmCWXf4JzGznPvk9rTA-6yNRDDsDhkb1GuxNIA6aV9AtcSeZnd_MRTpLUrqAxON9Pz7YA
+SF:HR_b1iWglwiGOzsY9pFTecm8\";\x20e_fb_httpversion=\"AcPzUQhqtXpJ5bpuDl0hS
+SF:AdgjwUXmv_M_LlOZKXF3GrxxCzzQrm2i68wHAmF\";\x20e_fb_responsebytes=\"A");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 235.08 seconds
+
+
+Running OS Detection and Service Version Scan...
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-11 12:58 IST
+Nmap scan report for instagram.com (157.240.192.174)
+Host is up (0.0047s latency).
+Other addresses for instagram.com (not scanned): 2a03:2880:f237:1e0:face:b00c:0:4420
+rDNS record for 157.240.192.174: instagram-p42-shv-02-maa2.fbcdn.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      proxygen-bolt
+|_http-title: Did not follow redirect to https://instagram.com/
+|_http-server-header: proxygen-bolt
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+|     Content-Type: text/plain
+|     Server: proxygen-bolt
+|     Date: Sun, 11 May 2025 07:28:40 GMT
+|     Connection: close
+|     Content-Length: 0
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 301 Moved Permanently
+|     Location: https:///
+|     Content-Type: text/plain
+|     Server: proxygen-bolt
+|     Date: Sun, 11 May 2025 07:28:40 GMT
+|     Connection: close
+|     Content-Length: 0
+|   RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Proxy-Status: http_headers_parsing_error; details="ParseHeader"
+|     Date: Sun, 11 May 2025 07:28:45 GMT
+|     Connection: close
+|     Content-Length: 105
+|     <html>
+|     <head>
+|     <title>5xx Server Error</title>
+|     </head>
+|     <body>
+|     <h1>5xx Server Error</h1>
+|     </body>
+|     </html>
+|   RTSPRequest, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Proxy-Status: http_headers_parsing_error; details="ParseHeader"
+|     Date: Sun, 11 May 2025 07:28:40 GMT
+|     Connection: close
+|     Content-Length: 105
+|     <html>
+|     <head>
+|     <title>5xx Server Error</title>
+|     </head>
+|     <body>
+|     <h1>5xx Server Error</h1>
+|     </body>
+|_    </html>
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=*.instagram.com/organizationName=Meta Platforms, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:*.instagram.com, DNS:*.cdninstagram.com, DNS:*.igsonar.com, DNS:cdninstagram.com, DNS:igsonar.com, DNS:instagram.com
+| Not valid before: 2025-03-20T00:00:00
+|_Not valid after:  2025-05-18T23:59:59
+|_http-title: Did not follow redirect to https://www.instagram.com/
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 default_vip_404
+|     Content-Type: text/html; charset=utf-8
+|     Access-Control-Allow-Origin: *
+|     Proxy-Status: proxy_internal_response; e_isproxyerr="AcNaLq5nPChPSHjW04iw6YNl-7K1Bl2BkhzHenCgAGWjE28bDhBsTvCFkrbW4g"; e_proxy="AcNVw1_vAePlagoe8znXI5mRrp9GgmYeocSTRJ9y3Y6QF597iei_cdMgelvMjy6rN6BF-zQxOnyF5U8"; e_fb_twtaskhandle="AcMq1J8XHyfStANvgnFdzpRxgGf098xPjsDpzaNE7QLaSQRhwt8g6dpiMUQs4qHEduXNyIRLeRySe97TkzveFuxeYFsSzNvX7Ro"; e_fb_proxycode="AcPdf5Gp5ONIVpBtuQnmknOhQnFcO_kXiRN6McY88a_25rMhfi4RbUdcbqxa"; e_fb_requestsequencenumber="AcMK3nuFK6P34JQbiCRlIXpdLdl7OgY3xzrDMbnmL20HxrMnfeZaHJV1aQ"; e_fb_zone="AcP_aGjSmVA-6DrU7OR2of-1aIzAYK4E8-v5oNM_7MjkKZod1wh9IVhIlcJbrA"; e_fb_binaryversion="AcPOFfFJUfBheiJupK69hbCD5FDMARkT6_Z41oH9gdHwLsKZjsozVRpoRf7uXzYQoj2GZmUtIUzD1zNBlltufQWPIh0VtN7FQO4"; e_fb_httpversion="AcPFyuOoUuUYSsFtdDP78tP4s1bAswCf6F8GZbXfRgHA64htO9vNI93vJGkT"; e_fb_responsebytes="A
+|   GetRequest: 
+|     HTTP/1.1 404 default_vip_404
+|     Content-Type: text/html; charset=utf-8
+|     Access-Control-Allow-Origin: *
+|     Proxy-Status: proxy_internal_response; e_isproxyerr="AcNoqJ6tKgJ6UpUn62SxO-hEvzJrqKiN9KNH_phY5yBT3vT_8q2kQ6QJCq3yfA"; e_proxy="AcNze6vx4mCLugJtWKuhoy0V4c7K3DB2XbNLuKGyxA4BI0Mi69OfTX_ORNCOehU-H8CzqpxPcB-ZpKg"; e_fb_twtaskhandle="AcOMQQEl15p9hKk4MvoSDxJQOCGG_tFBWUW9f5EsR6jR2cSJoo14kaTpJ5AXa_91PlPpmMkhOJ7hzPV0oqLaImHnepzSjgpN7pc"; e_fb_proxycode="AcPRw2ZSgYPCMrowY4d9_HhXqtJmJJsRszjj4diiL077VAMHmOA1eHFQXAXk"; e_fb_requestsequencenumber="AcPMge3digtQo0__jXEECEF7kb8l26Ja17MLZZH7AyKXaW3mapytF1MSYg"; e_fb_zone="AcPS4Mt2nazAevDn_WOuCrtOnmBWAPUsmjd93X6uiqoV6gyYbcf4Vtae5HD0bQ"; e_fb_binaryversion="AcM76_vAw6_u9zTK2FA7SexzeHKpB8eAzdh--rn0FiVQ3zv4F1l3Lhlw8N_uR0llKolf0IS5XmI35Wuf3iQ9Sr0S7WegAgtAm_A"; e_fb_httpversion="AcNvEy7rLUlKTSjSANJc-tjgb00PJEQWOhJ4jTHeExtc1ULTAjV3RN8FAdFX"; e_fb_responsebytes="A
+|   HTTPOptions: 
+|     HTTP/1.1 404 default_vip_404
+|     Content-Type: text/html; charset=utf-8
+|     Access-Control-Allow-Origin: *
+|_    Proxy-Status: proxy_internal_response; e_isproxyerr="AcOAGraeEPWc9hqL2ZPPf6tV4KouN429l4754NZdqTtzQH9mgqmmQfIV4VmGdg"; e_proxy="AcPn2vSTp--FdBdqoUbTsIJ0erSWNXWnkfRmuHdoOkg-kvZ1_xIrUMowp4yAcBtxiEFo_llCXp5H6Hg"; e_fb_twtaskhandle="AcPHqsn0XweDBUddx6FbOLqUS6rRrJMqw2Mu0AFHy50C39nBX0uS587WEzVMNpRZKKwMFr5_jnolzZKIeSgSnc6AFVktOOoDioc"; e_fb_proxycode="AcMP9HSNPrehxM2gqjOqczzhzMdl7ytFXTid0VHICUVf_iIbUcFg0rIVALpO"; e_fb_requestsequencenumber="AcM9nbgfLWbT93OI7YxJU7Bl7v-Jyc7A_HpxlHmJSycwKlDNQ6cO7fY-UQ"; e_fb_zone="AcNi7i5eitjLF5bcmyWdBRpfndRtggqffWOYs062kcK__ieRBjGvqv-vycOSTA"; e_fb_binaryversion="AcNrR9CU3VfPejs2iK5h0wXI52-I09R-fxRD1CnWWQND2aoj0_HnJwaq8ETtuhrzl-ZR6M0MpedLb_63QTPKLI40EgiLucV_et4"; e_fb_httpversion="AcOAfNhQINdbot1xxypvzXUoiakUbFbf0aBRzFcJyWGrSuwkSatKi1lG9ezk"; e_fb_responsebytes="A
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=5/11%Time=682051A8%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20htt
+SF:ps:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDa
+SF:te:\x20Sun,\x2011\x20May\x202025\x2007:28:40\x20GMT\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x203
+SF:01\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type:\x
+SF:20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Sun,\x2011\x20May\
+SF:x202025\x2007:28:40\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x
+SF:200\r\n\r\n")%r(RTSPRequest,13B,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_h
+SF:eaders_parsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x2011
+SF:\x20May\x202025\x2007:28:40\x20GMT\r\nConnection:\x20close\r\nContent-L
+SF:ength:\x20105\r\n\r\n<html>\n<head>\n<title>5xx\x20Server\x20Error</tit
+SF:le>\n</head>\n\n<body>\n<h1>5xx\x20Server\x20Error</h1>\n</body>\n\n</h
+SF:tml>\n")%r(X11Probe,13B,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-
+SF:Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_headers_p
+SF:arsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x2011\x20May\
+SF:x202025\x2007:28:40\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x
+SF:20105\r\n\r\n<html>\n<head>\n<title>5xx\x20Server\x20Error</title>\n</h
+SF:ead>\n\n<body>\n<h1>5xx\x20Server\x20Error</h1>\n</body>\n\n</html>\n")
+SF:%r(FourOhFourRequest,D6,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLo
+SF:cation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nContent-Typ
+SF:e:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Sun,\x2011\x20
+SF:May\x202025\x2007:28:40\x20GMT\r\nConnection:\x20close\r\nContent-Lengt
+SF:h:\x200\r\n\r\n")%r(RPCCheck,13B,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nContent-Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_
+SF:headers_parsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Sun,\x201
+SF:1\x20May\x202025\x2007:28:45\x20GMT\r\nConnection:\x20close\r\nContent-
+SF:Length:\x20105\r\n\r\n<html>\n<head>\n<title>5xx\x20Server\x20Error</ti
+SF:tle>\n</head>\n\n<body>\n<h1>5xx\x20Server\x20Error</h1>\n</body>\n\n</
+SF:html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=5/11%Time=682051AE%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,691,"HTTP/1\.1\x20404\x20default_vip_404\r\nContent-Type:
+SF:\x20text/html;\x20charset=utf-8\r\nAccess-Control-Allow-Origin:\x20\*\r
+SF:\nProxy-Status:\x20proxy_internal_response;\x20e_isproxyerr=\"AcNoqJ6tK
+SF:gJ6UpUn62SxO-hEvzJrqKiN9KNH_phY5yBT3vT_8q2kQ6QJCq3yfA\";\x20e_proxy=\"A
+SF:cNze6vx4mCLugJtWKuhoy0V4c7K3DB2XbNLuKGyxA4BI0Mi69OfTX_ORNCOehU-H8CzqpxP
+SF:cB-ZpKg\";\x20e_fb_twtaskhandle=\"AcOMQQEl15p9hKk4MvoSDxJQOCGG_tFBWUW9f
+SF:5EsR6jR2cSJoo14kaTpJ5AXa_91PlPpmMkhOJ7hzPV0oqLaImHnepzSjgpN7pc\";\x20e_
+SF:fb_proxycode=\"AcPRw2ZSgYPCMrowY4d9_HhXqtJmJJsRszjj4diiL077VAMHmOA1eHFQ
+SF:XAXk\";\x20e_fb_requestsequencenumber=\"AcPMge3digtQo0__jXEECEF7kb8l26J
+SF:a17MLZZH7AyKXaW3mapytF1MSYg\";\x20e_fb_zone=\"AcPS4Mt2nazAevDn_WOuCrtOn
+SF:mBWAPUsmjd93X6uiqoV6gyYbcf4Vtae5HD0bQ\";\x20e_fb_binaryversion=\"AcM76_
+SF:vAw6_u9zTK2FA7SexzeHKpB8eAzdh--rn0FiVQ3zv4F1l3Lhlw8N_uR0llKolf0IS5XmI35
+SF:Wuf3iQ9Sr0S7WegAgtAm_A\";\x20e_fb_httpversion=\"AcNvEy7rLUlKTSjSANJc-tj
+SF:gb00PJEQWOhJ4jTHeExtc1ULTAjV3RN8FAdFX\";\x20e_fb_responsebytes=\"A")%r(
+SF:HTTPOptions,691,"HTTP/1\.1\x20404\x20default_vip_404\r\nContent-Type:\x
+SF:20text/html;\x20charset=utf-8\r\nAccess-Control-Allow-Origin:\x20\*\r\n
+SF:Proxy-Status:\x20proxy_internal_response;\x20e_isproxyerr=\"AcOAGraeEPW
+SF:c9hqL2ZPPf6tV4KouN429l4754NZdqTtzQH9mgqmmQfIV4VmGdg\";\x20e_proxy=\"AcP
+SF:n2vSTp--FdBdqoUbTsIJ0erSWNXWnkfRmuHdoOkg-kvZ1_xIrUMowp4yAcBtxiEFo_llCXp
+SF:5H6Hg\";\x20e_fb_twtaskhandle=\"AcPHqsn0XweDBUddx6FbOLqUS6rRrJMqw2Mu0AF
+SF:Hy50C39nBX0uS587WEzVMNpRZKKwMFr5_jnolzZKIeSgSnc6AFVktOOoDioc\";\x20e_fb
+SF:_proxycode=\"AcMP9HSNPrehxM2gqjOqczzhzMdl7ytFXTid0VHICUVf_iIbUcFg0rIVAL
+SF:pO\";\x20e_fb_requestsequencenumber=\"AcM9nbgfLWbT93OI7YxJU7Bl7v-Jyc7A_
+SF:HpxlHmJSycwKlDNQ6cO7fY-UQ\";\x20e_fb_zone=\"AcNi7i5eitjLF5bcmyWdBRpfndR
+SF:tggqffWOYs062kcK__ieRBjGvqv-vycOSTA\";\x20e_fb_binaryversion=\"AcNrR9CU
+SF:3VfPejs2iK5h0wXI52-I09R-fxRD1CnWWQND2aoj0_HnJwaq8ETtuhrzl-ZR6M0MpedLb_6
+SF:3QTPKLI40EgiLucV_et4\";\x20e_fb_httpversion=\"AcOAfNhQINdbot1xxypvzXUoi
+SF:akUbFbf0aBRzFcJyWGrSuwkSatKi1lG9ezk\";\x20e_fb_responsebytes=\"A")%r(Fo
+SF:urOhFourRequest,691,"HTTP/1\.1\x20404\x20default_vip_404\r\nContent-Typ
+SF:e:\x20text/html;\x20charset=utf-8\r\nAccess-Control-Allow-Origin:\x20\*
+SF:\r\nProxy-Status:\x20proxy_internal_response;\x20e_isproxyerr=\"AcNaLq5
+SF:nPChPSHjW04iw6YNl-7K1Bl2BkhzHenCgAGWjE28bDhBsTvCFkrbW4g\";\x20e_proxy=\
+SF:"AcNVw1_vAePlagoe8znXI5mRrp9GgmYeocSTRJ9y3Y6QF597iei_cdMgelvMjy6rN6BF-z
+SF:QxOnyF5U8\";\x20e_fb_twtaskhandle=\"AcMq1J8XHyfStANvgnFdzpRxgGf098xPjsD
+SF:pzaNE7QLaSQRhwt8g6dpiMUQs4qHEduXNyIRLeRySe97TkzveFuxeYFsSzNvX7Ro\";\x20
+SF:e_fb_proxycode=\"AcPdf5Gp5ONIVpBtuQnmknOhQnFcO_kXiRN6McY88a_25rMhfi4RbU
+SF:dcbqxa\";\x20e_fb_requestsequencenumber=\"AcMK3nuFK6P34JQbiCRlIXpdLdl7O
+SF:gY3xzrDMbnmL20HxrMnfeZaHJV1aQ\";\x20e_fb_zone=\"AcP_aGjSmVA-6DrU7OR2of-
+SF:1aIzAYK4E8-v5oNM_7MjkKZod1wh9IVhIlcJbrA\";\x20e_fb_binaryversion=\"AcPO
+SF:FfFJUfBheiJupK69hbCD5FDMARkT6_Z41oH9gdHwLsKZjsozVRpoRf7uXzYQoj2GZmUtIUz
+SF:D1zNBlltufQWPIh0VtN7FQO4\";\x20e_fb_httpversion=\"AcPFyuOoUuUYSsFtdDP78
+SF:tP4s1bAswCf6F8GZbXfRgHA64htO9vNI93vJGkT\";\x20e_fb_responsebytes=\"A");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Apple macOS 11.X (88%), FreeBSD 12.X (88%)
+OS CPE: cpe:/o:apple:mac_os_x:11 cpe:/o:freebsd:freebsd:12
+Aggressive OS guesses: Apple macOS 11 (Big Sur) (Darwin 20.6.0) (88%), FreeBSD 12.1-RELEASE - 12.2-RELEASE (88%), FreeBSD 12.1-STABLE (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   3.24 ms  192.168.0.1
+2   ...
+3   11.29 ms 10.200.150.67
+4   ...
+5   6.51 ms  ae21.pr01.maa2.tfbnw.net (157.240.81.68)
+6   29.54 ms po4002.asw01.maa3.tfbnw.net (129.134.48.172)
+7   5.61 ms  psw02.maa2.tfbnw.net (157.240.55.143)
+8   5.61 ms  msw1ag.02.maa2.tfbnw.net (129.134.86.118)
+9   5.63 ms  instagram-p42-shv-02-maa2.fbcdn.net (157.240.192.174)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 37.47 seconds
